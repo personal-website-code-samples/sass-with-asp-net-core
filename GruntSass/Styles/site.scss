@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+
+$orchird: #AF69EF;
+
+$secondary: #17b2b8;
+$tertiary: #3969d1;
+
+$secondary-invert: findColorInvert($secondary) !default;
+$tertiary-invert: findColorInvert($tertiary) !default;
+
+$primary: $orchird;
+$custom-colors: ( "secondary":($secondary, $secondary-invert), "tertiary":($tertiary, $tertiary-invert), );
+
+@import "../node_modules/bulma/bulma";
