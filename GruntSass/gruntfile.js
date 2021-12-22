@@ -2,7 +2,7 @@
 
 module.exports = function (grunt) {
 
-    var sass = require('node-sass');
+    var sass = require('sass');
 
     // Project configuration.
     grunt.initConfig({
